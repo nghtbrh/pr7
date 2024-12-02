@@ -10,7 +10,7 @@ public class zavd1 {
             }
         }
 
-        System.out.println("піраміда (у звичайному порядку):");
+        System.out.println("піраміда у звичайному порядку:");
         for (int[] row : pyramid) {
             for (int value : row) {
                 System.out.print(value + " ");
@@ -18,7 +18,7 @@ public class zavd1 {
             System.out.println();
         }
 
-        System.out.println("\nтеж піраміда (але зворотній порядок):");
+        System.out.println("\nтеж піраміда але зворотній порядок:");
         for (int i = rows - 1; i >= 0; i--) {
             for (int value : pyramid[i]) {
                 System.out.print(value + " ");
