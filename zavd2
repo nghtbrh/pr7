@@ -3,8 +3,8 @@ import java.util.Random;
 public class zavd2 {
     public static void main(String[] args) {
         Random random = new Random();
-        int line = 3;
-        int column = 2;
+        int line = 5;
+        int column = 5;
         double[][] array = new double[line][column];
 
         for (int i = 0; i < line; i++) {
