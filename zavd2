@@ -3,17 +3,17 @@ import java.util.Random;
 public class zavd2 {
     public static void main(String[] args) {
         Random random = new Random();
-        int rows = 3;
-        int columns = 2;
-        double[][] array = new double[rows][columns];
+        int line = 3;
+        int column = 2;
+        double[][] array = new double[line][column];
 
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < columns; j++) {
+        for (int i = 0; i < line; i++) {
+            for (int j = 0; j < column; j++) {
                 array[i][j] = random.nextDouble() * 100;
             }
         }
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < columns; j++) {
+        for (int i = 0; i < line; i++) {
+            for (int j = 0; j < column; j++) {
                 if (i % 2 != 0 || j % 2 != 0) {
                     array[i][j] = Math.sqrt(array[i][j]); //переробили на кв корінь непарні
                 }
